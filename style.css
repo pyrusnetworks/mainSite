@@ -158,6 +158,9 @@ a {
     overflow-x: hidden !important;
     overflow-y: scroll;
   }
+  footer {
+    animation: none;
+  }
   section {
     width: 80%;
   }
