@@ -22,14 +22,19 @@ nav {
   top: 0;
   height: 90px;
   width: 100%;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.4);
 }
 
-.logo img {
+.logo svg {
   height: 80px;
   width: auto;
   margin-left: 10px;
   padding: 8px;
+}
+
+svg .cls-3,
+svg .cls-4 {
+  fill: #444;
 }
 
 footer {
@@ -175,19 +180,15 @@ a {
   .mailto {
     font-size: 16px;
   }
-
-@media screen and (max-height: 812px) {
-    nav {
-      position: relative;
-    }
-    body {
-      overflow-x: hidden !important;
-      overflow-y: scroll;
-      height: 100%;
-    }
-    footer {
-      position: relative;
-      bottom: 0;
-      animation: none !important;
-    }
 }
+
+/* @media screen and (max-height: 812px) {
+  nav {
+    position: relative;
+  }
+  body {
+    overflow-x: hidden !important;
+    overflow-y: scroll;
+    height: 100%;
+  }
+} */
