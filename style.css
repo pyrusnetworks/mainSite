@@ -160,11 +160,18 @@ a {
 /* Construction Landing Mobile Break */
 
 @media screen and (max-width: 757px) {
+  nav {
+    position: relative;
+  }
+
   body {
     overflow-x: hidden !important;
     overflow-y: scroll;
+    height: 100%;
   }
   footer {
+    position: relative;
+    bottom: 0;
     animation: none !important;
   }
   section {
