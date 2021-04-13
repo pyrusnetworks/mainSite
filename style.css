@@ -35,6 +35,9 @@ body {
 }
 
 section {
+  width: 600px;
+  white-space: normal;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,7 +51,6 @@ section {
 }
 
 .intro {
-  width: 600px;
   height: 300px;
   padding: 8px;
   animation: slideIn 2s 0.5s forwards ease;
@@ -71,11 +73,7 @@ h2 {
 }
 
 .contact {
-  width: 600px;
   height: 250px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   padding: 8px;
   animation: slideIn 2s 0.7s forwards ease;
   transform: translateY(400px);
@@ -106,5 +104,16 @@ a {
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+/* Construction Landing Mobile Break */
+
+@media screen and (max-width: 757px) {
+  section {
+    width: 80%;
+  }
+  .mailto {
+    font-size: 16px;
   }
 }
