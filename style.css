@@ -110,10 +110,14 @@ h2 {
 }
 
 .contact {
-  height: 250px;
+  height: 280px;
   padding: 8px;
   animation: mainSlideIn 2s 0.7s forwards ease;
   transform: translateY(400px);
+}
+
+.contactIcon {
+  font-size: 56px;
 }
 
 .cta {
@@ -156,17 +160,11 @@ a {
 /* Construction Landing Mobile Break */
 
 @media screen and (max-width: 757px) {
-  nav {
-    position: relative;
-  }
   body {
     overflow-x: hidden !important;
     overflow-y: scroll;
-    height: 100%;
   }
   footer {
-    position: relative;
-    bottom: 0;
     animation: none !important;
   }
   section {
