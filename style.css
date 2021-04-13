@@ -18,7 +18,7 @@ nav {
   display: flex;
   justify-content: left;
   align-items: center;
-  position: relative;
+  position: absolute;
   top: 0;
   height: 90px;
   width: 100%;
@@ -156,6 +156,9 @@ a {
 /* Construction Landing Mobile Break */
 
 @media screen and (max-width: 757px) {
+  nav {
+    position: relative;
+  }
   body {
     overflow-x: hidden !important;
     overflow-y: scroll;
