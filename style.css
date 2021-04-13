@@ -3,7 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
-@import url("http://fonts.cdnfonts.com/css/nevis");
 
 /* General Styles */
 * {
@@ -26,16 +25,11 @@ nav {
   background: rgba(255, 255, 255, 0.4);
 }
 
-.logo svg {
+.logo img {
   height: 80px;
   width: auto;
   margin-left: 10px;
   padding: 8px;
-}
-
-svg .cls-3,
-svg .cls-4 {
-  fill: #444;
 }
 
 footer {
