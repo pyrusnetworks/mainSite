@@ -111,7 +111,7 @@ h2 {
 
 .contact {
   height: 280px;
-  padding: 8px;
+  padding: 12px;
   animation: mainSlideIn 2s 0.7s forwards ease;
   transform: translateY(400px);
 }
