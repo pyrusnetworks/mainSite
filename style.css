@@ -193,6 +193,7 @@ a {
   nav {
     position: relative;
   }
+
   body {
     overflow-x: hidden !important;
     overflow-y: scroll;
